@@ -1,0 +1,10 @@
+{
+	"name":"UIRouter training",
+	"version":"0.0.1",	
+	"dependencies":{
+		"angular-bootstrap":"latest",
+		"angular":"latest",
+		"angular-ui-router":"latest",
+		"bootstrap":"latest"
+	}
+}
