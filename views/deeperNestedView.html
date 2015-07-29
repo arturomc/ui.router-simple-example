@@ -1,0 +1,24 @@
+<section class="deeperNestedView">
+
+	<div class="container">
+		<div class="row">
+			<h1>Nested view, level 2</h1>
+		</div>
+		<div class="row">
+			<tabset>
+				<tab heading="Some crappy title" 	ui-sref=".pledge1" ui-sref-active="active">Pledge</tab>
+				<tab heading="Another title" 		ui-sref=".pledge2" ui-sref-active="active">Pledge</tab>
+				<tab heading="Hey... another one" 	ui-sref=".pledge3" ui-sref-active="active">Pledge</tab>				
+			</tabset>
+		</div>
+	</div>
+	
+	The state is: ...{{state.current.name}}
+	
+	<div class="container">
+		<div class="row">
+			<div ui-view></div>
+		</div>
+	</div>
+	
+</section>

@@ -1,0 +1,29 @@
+<section class="nested-view">
+
+	<div class="container">
+		<div class="row">
+			<h1>Nested view, level 1</h1>
+		</div>
+		<div class="row">
+			<tabset>
+				<tab heading="A tab" 					ui-sref=".first">Some text and stuff</tab>
+				<tab heading="Another tab" 				ui-sref=".third">More static content</tab>
+				<tab heading="The best tab of em all" 	ui-sref=".second">The most static content of em all</tab>
+			</tabset>
+		</div>
+	</div>
+
+
+	<div class="container">
+		<div class="row">
+			<div ui-view></div>
+		</div>
+	</div>
+	
+	<div class="x">
+		<pre>
+			State: {{dewd.state}}
+		</pre>
+	</div>
+	
+</section>
