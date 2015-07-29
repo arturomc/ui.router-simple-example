@@ -6,14 +6,14 @@
 		</div>
 		<div class="row">
 			<tabset>
-				<tab heading="Some crappy title" 	ui-sref=".pledge1" ui-sref-active="active">Pledge</tab>
-				<tab heading="Another title" 		ui-sref=".pledge2" ui-sref-active="active">Pledge</tab>
-				<tab heading="Hey... another one" 	ui-sref=".pledge3" ui-sref-active="active">Pledge</tab>				
+				<tab heading="Some crappy title" 	ui-sref=".pledge1" active="$state.current.name === 'cv.first.pledge1'"></tab>
+				<tab heading="Another title" 		ui-sref=".pledge2" active="$state.current.name === 'cv.first.pledge2'"></tab>
+				<tab heading="Hey... another one" 	ui-sref=".pledge3" active="$state.current.name === 'cv.first.pledge3'"></tab>				
 			</tabset>
 		</div>
 	</div>
 	
-	The state is: ...{{state.current.name}}
+	The state is: ...{{$state.current.name}}
 	
 	<div class="container">
 		<div class="row">
